@@ -1,0 +1,80 @@
+body{
+	background-color:#d5dbd5
+}
+.loginbox{
+  padding: 40px;
+  border-radius: 3px;
+  width: 250px;
+  height: 175px;
+  background-color: #FDFEFE;
+  margin: 0 auto 10px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  position: fixed;
+  color: grey;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login{
+	width: 100%;
+	border:1px solid grey;
+	height: 25px;
+}
+.button2 {background-color: skyblue;}
+.button {
+  background-color: #2ebde8; /* skyblue */
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: -1px 0px;
+  cursor: pointer;
+  float: right;
+  border-radius: 3px;
+}
+.password{
+  padding-top: 20px;
+  position: relative;}
+.username_text{
+  bottom: 10px;
+    position: relative;
+}
+.remember_text{
+  padding-top: 30px;
+}
+.checkmark {
+  position: absolute;
+  background-color: #eee;
+}
+.password_lost{
+  float:right;
+  text-decoration: none;
+  bottom: 0;
+    position: relative;
+    left: 0;
+    color: grey;
+}
+.lost_text{
+  bottom: 0;
+    position: absolute;
+    left: 40%;
+    margin-bottom: 140px;
+}
+.back{
+  bottom: 0;
+    position: absolute;
+    left: 40%;
+    margin-bottom: 90px;
+    color: grey;
+}
+.blog{
+  cursor: pointer;
+}
+.logo{
+        padding: 40px 100px 200px 620px;
+}
